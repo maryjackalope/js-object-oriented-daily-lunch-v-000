@@ -1,5 +1,8 @@
 // global datastore
 let store = { neighborhoods: [], meals: [], customers: [], deliveries: [] };
 
-class Meal {
+class Neighborhood {
     constructor(name) {
+      
+    }
+}
