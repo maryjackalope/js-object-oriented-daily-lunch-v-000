@@ -3,7 +3,7 @@ let store = { neighborhoods: [], meals: [], customers: [], deliveries: [] };
 
 class Neighborhood {
     constructor(name) {
-      this.id = ++NeighborhoodId;
+      this.id = ++neighborhoodId;
         this.name = name;
         store.neighborhoods.push(this);
     }
